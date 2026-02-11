@@ -11,6 +11,7 @@
 | GPU 型号                          | 架构     | LLVM Target Name (gfx 代号) |
 |-----------------------------------|----------|------------------------------|
 | **AMD Instinct 系列（数据中心级）** |          |                  |
+| AMD Instinct MI355                | CDNA3    | gfx950           |
 | AMD Instinct MI325X               | CDNA3    | gfx942           |
 | AMD Instinct MI300X               | CDNA3    | gfx942           |
 | AMD Instinct MI300A               | CDNA3    | gfx942           |
