@@ -5,6 +5,10 @@
 
 同一架构家族（如 CDNA3、RDNA3）的不同 GPU 型号通常共享相同的 `gfx` 代号，因为它们基于相同的底层架构设计，支持一致的指令集和硬件功能。
 
+## 快捷设置
+```
+export PYTORCH_ROCM_ARCH=$(rocm-smi --showproductname | awk '/GFX Version/ {print $NF; exit}')
+```
 
 ## 对照表
 
